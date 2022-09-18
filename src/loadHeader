@@ -1,0 +1,33 @@
+function loadHeader() {
+    
+    const navBar = document.createElement("div");
+    document.body.appendChild(navBar);
+    navBar.classList.add("nav");
+
+    const restoName = document.createElement("div");
+    restoName.textContent = "Erika's Café"
+    restoName.classList.add("restoName");
+    document.querySelector(".nav").appendChild(restoName);
+
+    const navBtnsContainer = document.createElement("div");
+    document.querySelector(".nav").appendChild(navBtnsContainer);
+    navBtnsContainer.classList.add("navBtns");
+
+    const homeBtn = document.createElement("a");
+    homeBtn.textContent = "HOME";
+    homeBtn.classList.add("homeBtn", "navBtn");
+    
+    const menuBtn = document.createElement("a");
+    menuBtn.textContent = "MENU";
+    menuBtn.classList.add("menuBtn", "navBtn");
+    
+    const contactBtn = document.createElement("a");
+    contactBtn.textContent = "CONTACT";
+    contactBtn.classList.add("contactBtn", "navBtn");
+
+    document.querySelector(".navBtns").appendChild(homeBtn);
+    document.querySelector(".navBtns").appendChild(menuBtn);
+    document.querySelector(".navBtns").appendChild(contactBtn);
+}
+
+export default loadHeader;

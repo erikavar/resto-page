@@ -1,0 +1,63 @@
+html {
+    background-color: #FFECDB;
+    color: #3F1D00;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: #3F1D00;
+}
+
+.restoName {
+    font-family: 'Leckerli One', cursive;
+    font-size: 35px;
+    min-width: 200px;
+    padding: 30px 0px;
+    margin: 0px 20px;
+}
+
+.navBtns {
+    margin: 0px 10px 0px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    justify-items: center;
+    align-items: center;
+}
+
+.navBtn {
+    width: 90px;
+    padding: 30px 0px;
+    text-align: center;
+}
+/* margin order: top right bottom left*/
+
+.navBtn:hover {
+    border-bottom: 3px solid white;
+    border-top: 3px solid #3F1D00;
+    cursor: pointer;
+}
+
+#content {
+    position: relative;
+    top: 100px;
+    font-size: 30px;
+    margin: 0px 30px;
+}
+
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 100px;
+}
+
+.cafeImage {
+    text-align: center;
+    width: 90vw;
+}
+
+/*FFDAB9*/
