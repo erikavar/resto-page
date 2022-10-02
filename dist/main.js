@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"html {\\n    background-color: #FFECDB;\\n    color: #3F1D00;\\n    font-family: 'Roboto', sans-serif;\\n}\\n\\n.nav {\\n    width: 100%;\\n    display: flex;\\n    position: absolute;\\n    top: 0;\\n    left: 0;\\n    color: white;\\n    background-color: #3F1D00;\\n}\\n\\n.restoName {\\n    font-family: 'Leckerli One', cursive;\\n    font-size: 35px;\\n    min-width: 200px;\\n    padding: 30px 0px;\\n    margin: 0px 20px;\\n}\\n\\n.navBtns {\\n    margin: 0px 10px 0px auto;\\n    display: grid;\\n    grid-template-columns: repeat(3, 100px);\\n    justify-items: center;\\n    align-items: center;\\n}\\n\\n.navBtn {\\n    width: 90px;\\n    padding: 30px 0px;\\n    text-align: center;\\n}\\n/* margin order: top right bottom left*/\\n\\n.navBtn:hover {\\n    border-bottom: 3px solid white;\\n    border-top: 3px solid #3F1D00;\\n    cursor: pointer;\\n}\\n\\n#content {\\n    position: relative;\\n    top: 100px;\\n    font-size: 30px;\\n    margin: 0px 30px;\\n}\\n\\nh1 {\\n    font-family: 'Archivo Black', sans-serif;\\n    font-size: 100px;\\n}\\n\\n.cafeImage {\\n    text-align: center;\\n    width: 90vw;\\n}\\n\\n/*FFDAB9*/\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://resto-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"html {\\n    background-color: #FFECDB;\\n    color: #3F1D00;\\n    font-family: 'Roboto', sans-serif;\\n}\\n\\n.nav {\\n    width: 100%;\\n    display: flex;\\n    position: absolute;\\n    top: 0;\\n    left: 0;\\n    color: white;\\n    background-color: #3F1D00;\\n}\\n\\n.restoName {\\n    font-family: 'Leckerli One', cursive;\\n    font-size: 35px;\\n    min-width: 200px;\\n    padding: 30px 0px;\\n    margin: 0px 20px;\\n}\\n\\n.restoName:hover {\\n    cursor: pointer;\\n}\\n\\n.navBtns {\\n    margin: 0px 10px 0px auto;\\n    display: grid;\\n    grid-template-columns: repeat(3, 100px);\\n    justify-items: center;\\n    align-items: center;\\n}\\n\\n.navBtn {\\n    width: 90px;\\n    padding: 30px 0px;\\n    text-align: center;\\n}\\n/* margin order: top right bottom left*/\\n\\n.navBtn:hover {\\n    border-bottom: 3px solid white;\\n    border-top: 3px solid #3F1D00;\\n    cursor: pointer;\\n}\\n\\n#content {\\n    position: relative;\\n    top: 100px;\\n    max-width: 80vw;\\n    margin: auto;\\n    text-align: center;\\n}\\n\\nh1 {\\n    font-family: 'Archivo Black', sans-serif;\\n    font-size: 100px;\\n}\\n\\n.cafeImage {\\n    max-width: 70vw;\\n}\\n\\n.otherMenuBtn {\\n    border: none;\\n    background-color: #3F1D00;\\n    color: white;\\n    font-family: 'Roboto', sans-serif;\\n    font-size: 15px;\\n    padding: 20px;\\n    margin-bottom: 70px;\\n}\\n\\n.otherMenuBtn:hover {\\n    text-decoration: underline;\\n}\\n\\n.menuGrid {\\n    display: grid;\\n}\\n\\n.menuCategory {\\n    display: grid;\\n    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));\\n    padding-bottom: 20px;\\n    padding-top: 10px;\\n}\\n\\n.categoryHeader {\\n    grid-column: 1/-1;\\n    font-family: 'Archivo Black', sans-serif;\\n    font-size: 30px;\\n}\\n\\n.menuItem {\\n    font-size: 18px;\\n    font-style: italic;\\n    font-weight: bold;\\n    margin: 10px;\\n    padding: 10px;\\n}\\n\\n.menuImg {\\n    height: 300px;\\n    width: 300px;\\n    display: block;\\n    margin: auto;\\n    padding-top: 12px;\\n}\\n\\n.contactBox {\\n    border: 0.5px solid #3F1D00;\\n    max-width: 600px;\\n    margin: auto;\\n    box-shadow: 0px 0px 3px #3F1D00;\\n}\\n\\n/*FFDAB9*/\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://resto-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -116,7 +116,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction loadContact() {\n    \n    const contactContainer = document.createElement(\"div\");\n\n    const pageTitle = document.createElement(\"h1\");\n    pageTitle.textContent = \"Contact\";\n    const pageDescr = document.createElement(\"p\");\n    pageDescr.textContent = \"Coming soon\";\n    \n    contactContainer.appendChild(pageTitle);\n    contactContainer.appendChild(pageDescr);\n\n    document.getElementById('content').appendChild(contactContainer);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadContact);\n\n//# sourceURL=webpack://resto-page/./src/contactLoad.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction loadContact() {\n    \n    const contactContainer = document.createElement(\"div\");\n\n    const pageTitle = document.createElement(\"h1\");\n    pageTitle.textContent = \"Contact\";\n\n    const boxAround = document.createElement(\"div\");\n    boxAround.classList.add(\"contactBox\");\n    const mail = document.createElement(\"h2\");\n    mail.textContent = \"✉ erikas.cafe@notarealemail.com\";\n    const phone = document.createElement(\"h2\");\n    phone.textContent = \"✆ 111-222-3333\";\n\n    boxAround.appendChild(mail);\n    boxAround.appendChild(phone);\n    \n    contactContainer.appendChild(pageTitle);\n    contactContainer.appendChild(boxAround);\n\n\n    document.getElementById('content').appendChild(contactContainer);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadContact);\n\n//# sourceURL=webpack://resto-page/./src/contactLoad.js?");
 
 /***/ }),
 
@@ -126,7 +126,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pageLoad_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pageLoad.js */ \"./src/pageLoad.js\");\n/* harmony import */ var _menuLoad_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menuLoad.js */ \"./src/menuLoad.js\");\n/* harmony import */ var _contactLoad_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contactLoad.js */ \"./src/contactLoad.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _loadHeader__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./loadHeader */ \"./src/loadHeader\");\n\n\n\n\n\n\n\n(0,_loadHeader__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n\n(0,_pageLoad_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\ndocument.querySelector(\".homeBtn\").addEventListener(\"click\", function() {\n    document.getElementById('content').textContent = \"\";\n    (0,_pageLoad_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n});\n\ndocument.querySelector(\".menuBtn\").addEventListener(\"click\", function() {\n    document.getElementById('content').textContent = \"\";\n    (0,_menuLoad_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n});\n\ndocument.querySelector(\".contactBtn\").addEventListener(\"click\", function() {\n    document.getElementById('content').textContent = \"\";\n    (0,_contactLoad_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n});\n\n\n\n\n\n\n//# sourceURL=webpack://resto-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pageLoad_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pageLoad.js */ \"./src/pageLoad.js\");\n/* harmony import */ var _menuLoad_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menuLoad.js */ \"./src/menuLoad.js\");\n/* harmony import */ var _contactLoad_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contactLoad.js */ \"./src/contactLoad.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _loadHeader__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./loadHeader */ \"./src/loadHeader\");\n\n\n\n\n\n\n(0,_loadHeader__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n\n(0,_pageLoad_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\nfunction menuViaOtherBtn() {\n    document.querySelector(\".otherMenuBtn\").addEventListener(\"click\", function() {\n        document.getElementById('content').textContent = \"\";\n        (0,_menuLoad_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n    });\n}\n\ndocument.querySelector(\".homeBtn\").addEventListener(\"click\", function() {\n    document.getElementById('content').textContent = \"\";\n    (0,_pageLoad_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n    menuViaOtherBtn()\n});\n\ndocument.querySelector(\".restoName\").addEventListener(\"click\", function() {\n    document.getElementById('content').textContent = \"\";\n    (0,_pageLoad_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n    menuViaOtherBtn()\n});\n\ndocument.querySelector(\".menuBtn\").addEventListener(\"click\", function() {\n    document.getElementById('content').textContent = \"\";\n    (0,_menuLoad_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n});\n\ndocument.querySelector(\".contactBtn\").addEventListener(\"click\", function() {\n    document.getElementById('content').textContent = \"\";\n    (0,_contactLoad_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n});\n\n\n\n\n\n\n//# sourceURL=webpack://resto-page/./src/index.js?");
 
 /***/ }),
 
@@ -146,7 +146,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction loadMenu() {\n    \n    const menuContainer = document.createElement(\"div\");\n\n    const pageTitle = document.createElement(\"h1\");\n    pageTitle.textContent = \"Menu\";\n\n    const pageDescr = document.createElement(\"p\");\n    pageDescr.textContent = \"Coming soon\";\n    \n    menuContainer.appendChild(pageTitle);\n    menuContainer.appendChild(pageDescr);\n\n    document.getElementById('content').appendChild(menuContainer);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadMenu);\n\n//# sourceURL=webpack://resto-page/./src/menuLoad.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _black_coffee_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./black-coffee.jpg */ \"./src/black-coffee.jpg\");\n/* harmony import */ var _tea_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tea.jpg */ \"./src/tea.jpg\");\n/* harmony import */ var _hot_chocolate_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./hot-chocolate.jpg */ \"./src/hot-chocolate.jpg\");\n/* harmony import */ var _iced_coffee_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./iced-coffee.jpg */ \"./src/iced-coffee.jpg\");\n/* harmony import */ var _croissant_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./croissant.jpg */ \"./src/croissant.jpg\");\n/* harmony import */ var _cinnamon_bun_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./cinnamon-bun.jpg */ \"./src/cinnamon-bun.jpg\");\n/* harmony import */ var _brownie_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./brownie.jpg */ \"./src/brownie.jpg\");\n/* harmony import */ var _muffin_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./muffin.jpg */ \"./src/muffin.jpg\");\n\n\n\n\n\n\n\n\n\nfunction loadMenu() {\n    \n    const menuContainer = document.createElement(\"div\");\n\n    const pageTitle = document.createElement(\"h1\");\n    pageTitle.textContent = \"Menu\";\n\n    const menuGrid = document.createElement(\"div\");\n    menuGrid.classList.add(\"menuGrid\");\n\n    // Populating drinks section of menu\n    \n    const drinksSection = document.createElement(\"div\");\n    drinksSection.classList.add(\"menuCategory\");\n    \n    const drinksHeader = document.createElement(\"div\");\n    drinksHeader.textContent = \"BEVERAGES\";\n    drinksHeader.classList.add(\"categoryHeader\")\n    drinksSection.appendChild(drinksHeader);\n\n    let drinks = [\"Coffee\", \"Tea\", \"Hot chocolate\", \"Iced coffee\"];\n    let drinksImages = [_black_coffee_jpg__WEBPACK_IMPORTED_MODULE_0__, _tea_jpg__WEBPACK_IMPORTED_MODULE_1__, _hot_chocolate_jpg__WEBPACK_IMPORTED_MODULE_2__, _iced_coffee_jpg__WEBPACK_IMPORTED_MODULE_3__];\n    let drinksList = drinks.map(function(x, i) {\n        return {\"name\": x, \"imageSrc\": drinksImages[i]}\n    }.bind(this));\n    \n    drinksList.forEach((item, index) => {\n        const drinkItem = document.createElement(\"div\");\n        drinkItem.textContent = item.name;\n        let newItemImg = document.createElement('img');\n        newItemImg.src = item.imageSrc;\n        newItemImg.classList.add(\"menuImg\");\n        drinkItem.appendChild(newItemImg);\n        drinkItem.classList.add(\"menuItem\");\n        drinksSection.appendChild(drinkItem);        \n    });\n\n    // Populating snacks section of menu\n\n    const snacksSection = document.createElement(\"div\");\n    snacksSection.classList.add(\"menuCategory\");\n    \n    const snacksHeader = document.createElement(\"div\");\n    snacksHeader.textContent = \"SNACKS\";\n    snacksHeader.classList.add(\"categoryHeader\")\n    snacksSection.appendChild(snacksHeader);\n\n    let snacks = [\"Croissant\", \"Cinnamon bun\", \"Brownie\", \"Muffin\"];\n    let snacksImages = [_croissant_jpg__WEBPACK_IMPORTED_MODULE_4__, _cinnamon_bun_jpg__WEBPACK_IMPORTED_MODULE_5__, _brownie_jpg__WEBPACK_IMPORTED_MODULE_6__, _muffin_jpg__WEBPACK_IMPORTED_MODULE_7__];\n\n    let snacksList = snacks.map(function(x, i) {\n        return {\"name\": x, \"imageSrc\": snacksImages[i]}\n    }.bind(this));\n    \n    snacksList.forEach((item, index) => {\n        const snackItem = document.createElement(\"div\");\n        snackItem.textContent = item.name;\n        let newItemImg = document.createElement('img');\n        newItemImg.src = item.imageSrc;\n        newItemImg.classList.add(\"menuImg\");\n        snackItem.appendChild(newItemImg);\n        snackItem.classList.add(\"menuItem\");\n        snacksSection.appendChild(snackItem);        \n    });\n\n    // Adding both sections to the menu\n\n    menuGrid.appendChild(drinksSection);\n    menuGrid.appendChild(snacksSection);\n    \n    menuContainer.appendChild(pageTitle);\n    menuContainer.appendChild(menuGrid);\n\n    document.getElementById('content').appendChild(menuContainer);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadMenu);\n\n//# sourceURL=webpack://resto-page/./src/menuLoad.js?");
 
 /***/ }),
 
@@ -156,7 +156,27 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _cafe_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./cafe.png */ \"./src/cafe.png\");\n\n\nfunction loadPage() {\n    \n    const homeContainer = document.createElement(\"div\");\n\n    const pageTitle = document.createElement(\"h1\");\n    pageTitle.textContent = \"A GREAT DAY STARTS WITH GREAT COFFEE.\";\n\n    const menuBtn = document.createElement(\"button\");\n    menuBtn.textContent = \"Take a look at our menu\";\n\n        \n    homeContainer.appendChild(pageTitle);\n    homeContainer.appendChild(menuBtn);\n\n    const cafeImage = document.createElement('img');\n    cafeImage.src = _cafe_png__WEBPACK_IMPORTED_MODULE_0__;\n    cafeImage.classList.add(\"cafeImage\");\n\n    homeContainer.appendChild(cafeImage);\n    document.getElementById('content').appendChild(homeContainer);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadPage);\n\n//# sourceURL=webpack://resto-page/./src/pageLoad.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _cafe_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./cafe.png */ \"./src/cafe.png\");\n\n\nfunction loadPage() {\n    \n    const homeContainer = document.createElement(\"div\");\n\n    const pageTitle = document.createElement(\"h1\");\n    pageTitle.textContent = \"A GREAT DAY STARTS WITH GREAT COFFEE.\";\n\n    const otherMenuBtn = document.createElement(\"button\");\n    otherMenuBtn.textContent = \"Take a look at our menu\";\n    otherMenuBtn.classList.add(\"otherMenuBtn\");\n\n        \n    homeContainer.appendChild(pageTitle);\n    homeContainer.appendChild(otherMenuBtn);\n\n    const cafeImage = document.createElement('img');\n    cafeImage.src = _cafe_png__WEBPACK_IMPORTED_MODULE_0__;\n    cafeImage.classList.add(\"cafeImage\");\n\n    homeContainer.appendChild(cafeImage);\n    document.getElementById('content').appendChild(homeContainer);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadPage);\n\n//# sourceURL=webpack://resto-page/./src/pageLoad.js?");
+
+/***/ }),
+
+/***/ "./src/black-coffee.jpg":
+/*!******************************!*\
+  !*** ./src/black-coffee.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"9581a4e8d85dcecb68c7.jpg\";\n\n//# sourceURL=webpack://resto-page/./src/black-coffee.jpg?");
+
+/***/ }),
+
+/***/ "./src/brownie.jpg":
+/*!*************************!*\
+  !*** ./src/brownie.jpg ***!
+  \*************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"e65706cc0c76b309356c.jpg\";\n\n//# sourceURL=webpack://resto-page/./src/brownie.jpg?");
 
 /***/ }),
 
@@ -167,6 +187,66 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"b581bc4360ac02352804.png\";\n\n//# sourceURL=webpack://resto-page/./src/cafe.png?");
+
+/***/ }),
+
+/***/ "./src/cinnamon-bun.jpg":
+/*!******************************!*\
+  !*** ./src/cinnamon-bun.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"c5231482db0ca7288e94.jpg\";\n\n//# sourceURL=webpack://resto-page/./src/cinnamon-bun.jpg?");
+
+/***/ }),
+
+/***/ "./src/croissant.jpg":
+/*!***************************!*\
+  !*** ./src/croissant.jpg ***!
+  \***************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"a4484cc99b8a9ba250e1.jpg\";\n\n//# sourceURL=webpack://resto-page/./src/croissant.jpg?");
+
+/***/ }),
+
+/***/ "./src/hot-chocolate.jpg":
+/*!*******************************!*\
+  !*** ./src/hot-chocolate.jpg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"f05979f0979acb9e578c.jpg\";\n\n//# sourceURL=webpack://resto-page/./src/hot-chocolate.jpg?");
+
+/***/ }),
+
+/***/ "./src/iced-coffee.jpg":
+/*!*****************************!*\
+  !*** ./src/iced-coffee.jpg ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"1aebbfb76af30e146983.jpg\";\n\n//# sourceURL=webpack://resto-page/./src/iced-coffee.jpg?");
+
+/***/ }),
+
+/***/ "./src/muffin.jpg":
+/*!************************!*\
+  !*** ./src/muffin.jpg ***!
+  \************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"b7ed611b0224140d2726.jpg\";\n\n//# sourceURL=webpack://resto-page/./src/muffin.jpg?");
+
+/***/ }),
+
+/***/ "./src/tea.jpg":
+/*!*********************!*\
+  !*** ./src/tea.jpg ***!
+  \*********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"77793129027a57a007b6.jpg\";\n\n//# sourceURL=webpack://resto-page/./src/tea.jpg?");
 
 /***/ })
 

@@ -4,11 +4,20 @@ function loadContact() {
 
     const pageTitle = document.createElement("h1");
     pageTitle.textContent = "Contact";
-    const pageDescr = document.createElement("p");
-    pageDescr.textContent = "Coming soon";
+
+    const boxAround = document.createElement("div");
+    boxAround.classList.add("contactBox");
+    const mail = document.createElement("h2");
+    mail.textContent = "✉ erikas.cafe@notarealemail.com";
+    const phone = document.createElement("h2");
+    phone.textContent = "✆ 111-222-3333";
+
+    boxAround.appendChild(mail);
+    boxAround.appendChild(phone);
     
     contactContainer.appendChild(pageTitle);
-    contactContainer.appendChild(pageDescr);
+    contactContainer.appendChild(boxAround);
+
 
     document.getElementById('content').appendChild(contactContainer);
 }

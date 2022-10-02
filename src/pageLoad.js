@@ -7,12 +7,13 @@ function loadPage() {
     const pageTitle = document.createElement("h1");
     pageTitle.textContent = "A GREAT DAY STARTS WITH GREAT COFFEE.";
 
-    const menuBtn = document.createElement("button");
-    menuBtn.textContent = "Take a look at our menu";
+    const otherMenuBtn = document.createElement("button");
+    otherMenuBtn.textContent = "Take a look at our menu";
+    otherMenuBtn.classList.add("otherMenuBtn");
 
         
     homeContainer.appendChild(pageTitle);
-    homeContainer.appendChild(menuBtn);
+    homeContainer.appendChild(otherMenuBtn);
 
     const cafeImage = document.createElement('img');
     cafeImage.src = Image;

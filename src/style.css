@@ -22,6 +22,10 @@ html {
     margin: 0px 20px;
 }
 
+.restoName:hover {
+    cursor: pointer;
+}
+
 .navBtns {
     margin: 0px 10px 0px auto;
     display: grid;
@@ -46,8 +50,9 @@ html {
 #content {
     position: relative;
     top: 100px;
-    font-size: 30px;
-    margin: 0px 30px;
+    max-width: 80vw;
+    margin: auto;
+    text-align: center;
 }
 
 h1 {
@@ -56,8 +61,61 @@ h1 {
 }
 
 .cafeImage {
-    text-align: center;
-    width: 90vw;
+    max-width: 70vw;
+}
+
+.otherMenuBtn {
+    border: none;
+    background-color: #3F1D00;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 20px;
+    margin-bottom: 70px;
+}
+
+.otherMenuBtn:hover {
+    text-decoration: underline;
+}
+
+.menuGrid {
+    display: grid;
+}
+
+.menuCategory {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.categoryHeader {
+    grid-column: 1/-1;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 30px;
+}
+
+.menuItem {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+}
+
+.menuImg {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: auto;
+    padding-top: 12px;
+}
+
+.contactBox {
+    border: 0.5px solid #3F1D00;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0px 0px 3px #3F1D00;
 }
 
 /*FFDAB9*/
